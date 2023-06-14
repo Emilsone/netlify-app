@@ -1,5 +1,6 @@
 <template>
-  <form>
+  <form name="contact" method="POST" data-netlify="true">
+    <p><input type="hidden" name="form-name" value="contact"></p>
     <p>
       <label>
         Your Name: <input type="text" name="name" v-model="form.name" />
