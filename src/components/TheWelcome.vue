@@ -4,7 +4,7 @@
 
 <template>
   <main>
-    <form name="contact" method="POST" netlify hidden>
+    <form name="contact" method="POST" netlify>
       <p><input type="hidden" name="form-name" value="Contact" /></p>
       <p>
         <label>Your Name: <input type="text" name="name" /></label>
